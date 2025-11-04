@@ -122,3 +122,33 @@
     padding-bottom: 20px;
 
 }
+/* FAQ Accordion Styles */
+.list-group-item {
+    transition: background-color 0.2s ease;
+}
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+.list-group-item .d-flex[data-bs-toggle="collapse"] {
+    transition: background-color 0.2s ease;
+}
+.list-group-item .d-flex[data-bs-toggle="collapse"] .bi-chevron-down {
+    transition: transform 0.3s ease;
+}
+.list-group-item .d-flex[data-bs-toggle="collapse"][aria-expanded="true"] .bi-chevron-down {
+    transform: rotate(180deg);
+}
+.list-group-item .collapse {
+    transition: height 0.35s ease;
+}
+/* Style FAQ links to match Use Cases section */
+.list-group-item .collapse a {
+    font-weight: bold;
+    color: rgb(50, 50, 50);
+    text-decoration: none;
+}
+.list-group-item .collapse a:hover {
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+    text-decoration: underline;
+}

@@ -161,12 +161,10 @@
     <section class="client-logo-area client-logo-one">
         <div class="section-title-two">
             <div class="container">
-                <div class="row">
-                    <div class="col-12">
+                <div class="col-12">
                     <div class="content a-partner">
                         <h2 class="fw-bold">Partner Registrars</h2>
-                        <p>Thanks to <a href="https://www.namebase.io/register/katmx2" target="_blank">Namebase</a>, our dTLDs are already available on some of the most well-known, trusted registrars out there.</p>
-                    </div>
+                        <p class="lead">Thanks to <a href="https://www.namebase.io/register/katmx2" target="_blank">Namebase</a>, our dTLDs are already available on some of the most well-known, trusted registrars out there.</p>
                     </div>
                 </div>
             </div>
@@ -204,9 +202,25 @@
         </div>
     </section>
 
+    <div class="container px-4 py-5">
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <h2 class="pb-2 fw-bold mb-4">Ready-to-use Access</h2>
+                <p class="lead mb-4">When you purchase a .dn, .rd, or .ur domain from i1Registry, you can test your website immediately in standard web browsers without any special hardware or software configuration required.</p>
+                <p class="lead mb-5">Simply append <code>.td</code> to the end of your i1Registry domain name to access it through all standard DNS resolvers and web browsers. You can test out this feature by visiting one of our test websites:</p>
+                <div class="d-flex flex-wrap justify-content-center gap-3">
+                    <a href="http://test.dn.td" target="_blank" class="btn btn-outline-success btn-lg">test.dn.td</a>
+                    <a href="http://test.rd.td" target="_blank" class="btn btn-outline-success btn-lg">test.rd.td</a>
+                    <a href="http://test.ur.td" target="_blank" class="btn btn-outline-success btn-lg">test.ur.td</a>
+                </div>
+                <p class="text-muted my-5"><i>Note: This service is exclusively offered by i1Registry and only available to registrants of .dn, .rd, or .ur domains. It is meant for testing purposes only and is not intended for production use.</i></p>
+            </div>
+        </div>
+    </div>
+
     <div class="container px-4 py-5" id="featured-3">
-        <h2 class="pb-2 text-center fw-bold">Use Cases</h2>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <h2 class="pb-2 text-center fw-bold mb-5">Use Cases</h2>
+        <div class="row g-4 pb-5 row-cols-1 row-cols-lg-3">
             <div class="feature col">
                 <div class="justify-content-center text-center">
                     <div class="d-inline-flex align-items-center justify-content-center fs-2 mb-3">
@@ -234,6 +248,67 @@
                 </div>
                 <p>Get a human readable name to replace all of your lengthy crypto addresses. Stop risking typos and copy-pasting. Use your HNS domain to send and receive cryptocurrencies and NFTs. Transact between wallet addresses efficiently with an easily readable name.</p>
             </div>
+        </div>
+    </div>
+
+    <div class="container px-4 py-5">
+        <h2 class="pb-2 text-center fw-bold mb-5">Frequently Asked Questions</h2>
+        <div class="list-group">
+
+          <div class="list-group-item">
+            <div class="d-flex w-100 justify-content-between align-items-center" data-bs-toggle="collapse" data-bs-target="#question1" aria-expanded="false" aria-controls="question1" style="cursor: pointer;">
+              <h5 class="my-2"><strong>What are Handshake domains?</strong></h5>
+              <i class="bi bi-chevron-down"></i>
+            </div>
+            <div class="collapse mt-3" id="question1">
+              <p class="mb-3">Handshake domains are decentralized top-level domains (dTLDs) that operate independently of ICANN. They use blockchain technology to provide censorship-resistant domain names that you fully control.</p>
+            </div>
+          </div>
+
+          <div class="list-group-item">
+            <div class="d-flex w-100 justify-content-between align-items-center" data-bs-toggle="collapse" data-bs-target="#question2" aria-expanded="false" aria-controls="question2" style="cursor: pointer;">
+              <h5 class="my-2"><strong>How do I make a Handshake website?</strong></h5>
+              <i class="bi bi-chevron-down"></i>
+            </div>
+            <div class="collapse mt-3" id="question2">
+              <p class=""">You can make a Handshake website the same way you make a normal website. For simple, static websites, we recommend using GitHub Pages as a free host. Once you make your website and upload it to a host, you need to configure your Handshake domain's DNS records to point to your website.</p>
+              <p class="mb-3"><i>Note: At first, your Handshake domain will only be accessible via <code>http://</code>. In order to use <code>https://</code>, additional configuration is required.</i></p>
+            </div>
+          </div>
+
+          <div class="list-group-item">
+            <div class="d-flex w-100 justify-content-between align-items-center" data-bs-toggle="collapse" data-bs-target="#question3" aria-expanded="false" aria-controls="question3" style="cursor: pointer;">
+              <h5 class="my-2"><strong>How do I access my Handshake website?</strong></h5>
+              <i class="bi bi-chevron-down"></i>
+            </div>
+            <div class="collapse mt-3" id="question3">
+              <p class="">You can access Handshake domains by configuring your DNS resolver to use a Handshake-compatible resolver like <a href="https://nextdns.io" target="_blank">NextDNS</a>, <a href="https://hdns.io" target="_blank">HDNS</a>, or <a href="https://welcome.hnsdoh.com" target="_blank">HNS DoH</a>. These resolvers allow you to browse Handshake domains directly in your standard web browsers, such as Chrome, Firefox, Edge, Safari, etc.</p>
+              <p class="">Alternatively, if you purchase a .dn, .rd, or .ur domain, you can simply append .td to the end of the domain name (e.g. <a href="http://test.dn.td" target="_blank">test.dn.td</a>) to access it through all standard DNS resolvers and web browsers (no additional software or configuration required).</p>
+              <p class="mb-3"><i>Note: This service is exclusively offered by i1Registry and only available to registrants of .dn, .rd, or .ur domains. It is meant for testing purposes only and is not intended for production use.</i></p>
+            </div>
+          </div>
+
+          <div class="list-group-item">
+            <div class="d-flex w-100 justify-content-between align-items-center" data-bs-toggle="collapse" data-bs-target="#question4" aria-expanded="false" aria-controls="question4" style="cursor: pointer;">
+              <h5 class="my-2"><strong>What's the difference between Handshake, Unstoppable Domains, and Freename?</strong></h5>
+              <i class="bi bi-chevron-down"></i>
+            </div>
+            <div class="collapse mt-3" id="question4">
+                <p class="">The Handshake blockchain offers truly decentralized top-level domains (dTLDs) that are not subject to the control of any central authority. Unstoppable Domains and Freename, on the other hand, are centralized domain name services that are subject to the control of their respective parent companies.</p>
+                <p class="mb-3">With Handshake domains, you have full control and there is no central point of failure (i.e. an actual blockchain). With Unstoppable and Freename domains, you are at the mercy of the parent company. If they cease to exist, so do your domains through them.</p>
+            </div>
+          </div>
+
+          <div class="list-group-item">
+            <div class="d-flex w-100 justify-content-between align-items-center" data-bs-toggle="collapse" data-bs-target="#question5" aria-expanded="false" aria-controls="question5" style="cursor: pointer;">
+              <h5 class="my-2"><strong>Can I use Handshake domains for cryptocurrency wallets?</strong></h5>
+              <i class="bi bi-chevron-down"></i>
+            </div>
+            <div class="collapse mt-3" id="question5">
+              <p class="mb-3">Yes! Handshake domains can be used as human-readable names for cryptocurrency addresses. This allows you to send and receive crypto and NFTs using your domain name instead of long, complex wallet addresses.</p>
+            </div>
+          </div>
+
         </div>
     </div>
 
