@@ -86,7 +86,7 @@
         max-width: 342px;
     }
     .client-logo-center-padding {
-    padding: 25px 0 0 0;
+    padding: 50px 0 0 0;
     }
 }
 .feature-icon {
@@ -154,4 +154,5 @@
 }
 .list-group-item h5 {
     font-weight: 600;
+
 }
