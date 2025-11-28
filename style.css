@@ -58,7 +58,9 @@
 .client-logo-one .single-client {
     margin-top: 30px;
 }
-
+.single-client {
+    padding-top: 30px;
+}
 .logo-blur {
     filter: blur(6px);
 }
@@ -84,9 +86,6 @@
 @media (min-width: 576px) {
     .search-width-adjust {
         max-width: 342px;
-    }
-    .client-logo-center-padding {
-    padding: 100px 0 0 0;
     }
 }
 .feature-icon {
@@ -120,7 +119,6 @@
 }
 .uc-h4 {
     padding-bottom: 20px;
-
 }
 /* FAQ Accordion Styles */
 .list-group-item {
@@ -154,6 +152,4 @@
 }
 .list-group-item h5 {
     font-weight: 600;
-
 }
-
