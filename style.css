@@ -61,9 +61,6 @@
 .single-client {
     padding-top: 30px;
 }
-.logo-blur {
-    filter: blur(6px);
-}
 .h-100 {
     max-width: 360px;
 }
@@ -152,4 +149,9 @@
 }
 .list-group-item h5 {
     font-weight: 600;
+}
+
+.hnsb-button {
+    opacity: 0.5;
+    font-size: small;
 }
