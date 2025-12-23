@@ -33,6 +33,41 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Resolvers
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://nextdns.io/?utm_source=i1r.org" target="_blank">NextDNS</a></li>
+                  <li><a class="dropdown-item" href="https://hdns.io/?utm_source=i1r.org" target="_blank">HDNS</a></li>
+                  <li><a class="dropdown-item" href="https://welcome.hnsdoh.com/?utm_source=i1r.org" target="_blank">HNS DoH</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Bridges
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="http://hn.sb/?utm_source=i1r.org" target="_blank">(name).hn.sb</a></li>
+                  <li><a class="dropdown-item" href="http://hns.to/?utm_source=i1r.org" target="_blank">(name).hns.to</a></li>
+                  <li><a class="dropdown-item" href="http://hns.link/?utm_source=i1r.org" target="_blank">(name).hns.link</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Registrars
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://porkbun.com/handshake/?utm_source=i1r.org" target="_blank">Porkbun</a></li>
+                    <li><a class="dropdown-item" href="https://www.namebase.io/register/katmx2" target="_blank">Namebase</a></li>
+                    <li><a class="dropdown-item" href="https://www.encirca.com/handshake/?utm_source=i1r.org" target="_blank">EnCirca</a></li>
+                    <li><a class="dropdown-item" href="https://www.namecheap.com/domains/handshake-domains/?utm_source=i1r.org" target="_blank">Namecheap</a></li>
+                </ul>
+              </li>
+
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Resources
@@ -43,30 +78,11 @@
                   <li><a class="dropdown-item" href="https://www.namecheap.com/support/knowledgebase/article.aspx/10484/2278/namecheap-handshake-tlds/?utm_source=i1r.org" target="_blank">Namecheap: HNS Explained</a></li>
                 </ul>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  HNS Resolvers
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="https://nextdns.io/?utm_source=i1r.org" target="_blank">NextDNS</a></li>
-                  <li><a class="dropdown-item" href="https://hdns.io/?utm_source=i1r.org" target="_blank">HDNS</a></li>
-                  <li><a class="dropdown-item" href="https://welcome.hnsdoh.com/?utm_source=i1r.org" target="_blank">HNS DoH</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Partner Registrars
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="https://porkbun.com/handshake/?utm_source=i1r.org" target="_blank">Porkbun</a></li>
-                    <li><a class="dropdown-item" href="https://www.namebase.io/register/katmx2" target="_blank">Namebase</a></li>
-                    <li><a class="dropdown-item" href="https://www.encirca.com/handshake/?utm_source=i1r.org" target="_blank">EnCirca</a></li>
-                    <li><a class="dropdown-item" href="https://www.namecheap.com/domains/handshake-domains/?utm_source=i1r.org" target="_blank">Namecheap</a></li>
-                </ul>
-              </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact</a>
               </li>
+
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search for .dn .rd .ur" aria-label="Search" id="sb-input2" />
@@ -314,37 +330,18 @@
 
     <div class="container pt-5 px-4 px-sm-0">
         <footer class="row pt-5 pb-3 border-top">
-            <div class="col-12 col-lg-6 mb-3 order-4 order-lg-1">
-                <div style="width:40px;">
-                    <a href="https://i1r.org" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
-                        <img class="bi me-2" src="images/hns.svg" alt="HNS logo" width="40" height="32" />
-                    </a>
-                </div>
-                <p class="text-body-secondary">&copy; <script>document.write(new Date().getFullYear())</script> i1Registry <br>All images and logos are copyright/trademark of their respective owners. i1Registry is not affiliated with the Handshake Development Team or Namebase.</p>
+            <div class="col-8 mb-3">
+                <img class="bi me-2 mb-2 footer-logo" src="images/hns.svg" alt="HNS logo" width="40" height="32" />
+                <p class="text-body-secondary mb-2">
+                    &copy; <script>document.write(new Date().getFullYear())</script> i1Registry</p>
+                <p class="text-body-secondary" style="font-size: small;">All images and logos are copyright/trademark of their respective owners.</p>
             </div>
 
-            <div class="col-12 col-sm-4 col-lg-2 mb-3 order-2 order-lg-2 a-underline">
-                <h5>HNS Resolvers</h5>
-                <ul class="nav flex-column a-underline">
-                    <li class="nav-item mb-2"><a href="https://nextdns.io/?utm_source=i1r.org" target="_blank" class="nav-link p-0 text-body-secondary">nextdns.io</a></li>
-                    <li class="nav-item mb-2"><a href="https://hdns.io/?utm_source=i1r.org" target="_blank" class="nav-link p-0 text-body-secondary">hdns.io</a></li>
-                    <li class="nav-item mb-2"><a href="https://welcome.hnsdoh.com/?utm_source=i1r.org" target="_blank" class="nav-link p-0 text-body-secondary">hnsdoh.com</a></li>
-                </ul>
-            </div>
-
-            <div class="col-12 col-sm-4 col-lg-2 mb-3 order-1 order-lg-3 a-underline">
-                <h5>Resources</h5>
-                <ul class="nav flex-column a-underline">
-                    <li class="nav-item mb-2"><a href="https://handshake.org/?utm_source=i1r.org" target="_blank" class="nav-link p-0 text-body-secondary">handshake.org</a></li>
-                    <li class="nav-item mb-2"><a href="https://learn.namebase.io/?utm_source=i1r.org" target="_blank" class="nav-link p-0 text-body-secondary">learn.namebase.io</a></li>
-                </ul>
-            </div>
-
-            <div class="col-12 col-sm-4 col-lg-2 mb-5 mb-sm-3 order-3 order-lg-4 a-underline" id="contact">
-                <h5>Contact</h5>
+            <div class="col-4 mb-5 mb-sm-3 a-underline text-end" id="contact">
+                <h6 id="footer-contact-title">Contact</h6>
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2"><a href="https://x.com/@i1reg" target="_blank" class="nav-link p-0 text-body-secondary">@i1reg</a></li>
-                    <li class="nav-item mb-2"><a href="mailto:admin@i1r.org" target="_blank" class="nav-link p-0 text-body-secondary">reg@i1r.org</a></li>
+                    <li class="nav-item mb-2"><a href="mailto:reg@i1r.org" target="_blank" class="nav-link p-0 text-body-secondary">reg@i1r.org</a></li>
                 </ul>
             </div>
         </footer>
