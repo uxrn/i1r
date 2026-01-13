@@ -74,6 +74,15 @@
     .card-neg-adjust {
         padding-left: 60px;
     }
+    .card-neg-right-2 {
+        margin-left: -15px;
+    }
+    .card-neg-left-2 {
+        margin-right: -15px;
+    }
+    .card-neg-adjust-2 {
+        padding-left: 35px;
+    }
 }
 @media (min-width: 992px) {
     .navbar-brand {
